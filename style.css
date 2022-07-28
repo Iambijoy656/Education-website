@@ -1,3 +1,16 @@
+.slide img {
+    filter: brightness(70%);
+
+
+
+}
+
+.slide-heading {
+    margin-top: -200px;
+
+}
+
+
 .Institute-bg {
     background-color: #F4FAFD;
 
@@ -5,4 +18,27 @@
 
 .register-bg {
     background-color: #289BDE;
+}
+
+.feedback-img {
+    width: 42px;
+    height: 42px;
+
+}
+
+.companies-img {
+    width: 100px;
+    width: 100px;
+}
+
+/* Media quiere for phone */
+
+@media screen and (max-width: 576px) {
+    .slide img {
+        height: 300px;
+
+
+
+    }
+
 }
