@@ -318,64 +318,54 @@
 
 
     <!-- Register Section start -->
-    <section class="container rounded-2 register-bg text-white p-5 my-5 registration-section ">
-
-        <div class="row text-center  text-lg-start">
-            <div class="col-sm-12 col-md-12 col-lg-9 ">
-
-                <div>
-                    <h2>Ready to join?</h2>
-                    <p>It is a long established fact that a reader will be distracted by the <br> readable content of a
-                        page
-                        when
-                        looking at its layout.</p>
-
-                </div>
-
+    <section class=" container register-bg p-md-0 p-lg-0 rounded">
+        <div class="d-flex justify-content-lg-evenly flex-column flex-lg-row pt-5 pb-5 align-items-center ">
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <h1 class="text-light">Ready to join?</h1>
+                <p class="text-light text-center text-lg-start">If you want to join this mission please register your
+                    account <br>and build your skill with us.</p>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-3 ">
+            <div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-primary fw-semibold" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register
+                </button>
 
-                <button type="button" class="btn btn-light mt-4 fw-semibold text-primary " data-bs-toggle="modal"
-                    data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
-
-
+                <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-
+                                <h5 class="modal-title" id="exampleModalLabel">Please Registeration</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <form>
-                                    <div class="mb-1">
-                                        <label for="email" class="col-form-label">Email:</label>
-                                        <input type="email" class="form-control" id="recipient-name"
-                                            placeholder="Enter-email">
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                            placeholder="Enter  email">
                                     </div>
-                                    <div class="mb-2">
-                                        <label for="recipient-name" class="col-form-label">Password:</label>
-                                        <input type="password" class="form-control" id="recipient-name"
-                                            placeholder="Enter-Password">
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password"
+                                            placeholder="Enter password">
                                     </div>
+
+                                    <button type="submit" class="btn btn-primary">Submit</button>
                                 </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Registration</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
-
         </div>
     </section>
 
